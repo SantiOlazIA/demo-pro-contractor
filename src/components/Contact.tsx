@@ -1,12 +1,6 @@
 export const Contact = () => {
     return (
         <section id="contacto" className="py-16 md:py-32 px-6 md:px-16 bg-[#09090b] border-t border-white/5 relative overflow-hidden">
-            {/* Structural Background Lines */}
-            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none flex justify-center">
-                <div className="w-[1px] h-full bg-primary mx-auto"></div>
-                <div className="absolute top-1/2 left-0 w-full h-[1px] bg-primary"></div>
-            </div>
-
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 md:gap-20 relative z-10">
                 <div className="w-full lg:w-5/12">
                     <div className="flex items-center gap-4 mb-4">
