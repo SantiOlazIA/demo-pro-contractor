@@ -2,8 +2,8 @@ import { Building2, Mail, MapPinned, Linkedin, ArrowRight } from 'lucide-react';
 
 export const Footer = () => {
     return (
-        <footer className="w-full bg-[#18181b] pt-24 pb-12 px-6 md:px-16 border-t border-accent relative">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 mb-20">
+        <footer className="w-full bg-[#18181b] pt-12 md:pt-24 pb-12 px-6 md:px-16 border-t border-accent relative">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 mb-10 md:mb-20">
 
                 <div className="md:col-span-5 flex flex-col justify-between">
                     <div>

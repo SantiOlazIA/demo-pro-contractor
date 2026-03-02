@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export const Hero = () => {
     return (
-        <section className="relative w-full min-h-screen flex flex-col justify-center px-6 md:px-16 overflow-hidden bg-background">
+        <section className="relative w-full min-h-[100dvh] flex flex-col justify-center px-6 md:px-16 overflow-hidden bg-background">
 
             {/* Absolute Brand Header */}
             <header className="absolute top-0 left-0 w-full p-6 md:p-10 z-20 flex justify-between items-center mix-blend-difference">
@@ -10,7 +10,7 @@ export const Hero = () => {
                     <div className="w-6 h-6 bg-accent"></div> {/* Minimalist brutalist solid color box */}
                     <span className="text-xl md:text-3xl font-sans font-black tracking-tighter uppercase">STRUCTURA</span>
                 </div>
-                <a href="#contacto" className="hidden md:block px-8 py-3 border-2 border-primary text-primary font-black uppercase tracking-widest text-xs hover:bg-primary hover:text-dark transition-colors">
+                <a href="#contacto" className="hidden md:block px-8 py-3 border-2 border-primary text-primary font-black uppercase tracking-widest text-xs hover:bg-primary hover:text-dark transition-colors rounded-none">
                     Portal de Clientes
                 </a>
             </header>
@@ -21,7 +21,7 @@ export const Hero = () => {
                     initial={{ scale: 1.1 }}
                     animate={{ scale: 1 }}
                     transition={{ duration: 1.5, ease: "easeOut" }}
-                    src="https://images.unsplash.com/photo-1541888085950-de5cdfb8b8d9?q=80&w=2074&auto=format&fit=crop"
+                    src="/images/hero/construction.jpg"
                     alt="Modern Architecture Construction"
                     className="w-full h-full object-cover grayscale brightness-50 contrast-125"
                 />
@@ -41,8 +41,8 @@ export const Hero = () => {
                 </div>
 
                 <div className="max-w-4xl">
-                    <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-sans font-black text-primary mb-8 leading-[0.95] tracking-tighter uppercase text-balance">
-                        Construimos <br className="hidden md:block" />el futuro de <br className="hidden md:block" /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/40">tu industria.</span>
+                    <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-[6rem] font-sans font-black text-primary mb-8 leading-[0.95] tracking-tighter uppercase text-balance">
+                        Construimos <br className="hidden md:block" />el futuro de <br className="hidden md:block" /><span className="text-primary/40">tu industria.</span>
                     </h1>
 
                     <p className="text-lg md:text-xl text-primary/70 mb-12 max-w-2xl font-sans font-normal leading-relaxed">
@@ -52,14 +52,14 @@ export const Hero = () => {
                     <div className="flex flex-col sm:flex-row gap-6">
                         <a
                             href="#contacto"
-                            className="group relative inline-flex justify-center items-center bg-primary text-dark px-10 py-5 font-bold tracking-widest uppercase text-sm overflow-hidden"
+                            className="group relative inline-flex justify-center items-center bg-primary text-dark px-10 py-5 font-bold tracking-widest uppercase text-sm overflow-hidden rounded-none"
                         >
                             <span className="relative z-10 transition-colors group-hover:text-primary">Iniciar Proyecto</span>
-                            <div className="absolute inset-0 bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+                            <div className="absolute inset-0 bg-accent transform translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
                         </a>
                         <a
                             href="#obras"
-                            className="inline-flex justify-center items-center border border-primary/20 text-primary px-10 py-5 font-bold tracking-widest uppercase text-sm hover:bg-white/5 transition-colors"
+                            className="inline-flex justify-center items-center border border-primary/20 text-primary px-10 py-5 font-bold tracking-widest uppercase text-sm hover:bg-white/5 transition-colors rounded-none"
                         >
                             Explorar Obras
                         </a>

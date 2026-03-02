@@ -6,7 +6,7 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <main className="min-h-screen bg-background font-sans selection:bg-accent selection:text-dark pb-0">
+    <main className="min-h-[100dvh] bg-background font-sans selection:bg-accent selection:text-dark pb-0">
       <Hero />
       <Stats />
       <Portfolio />

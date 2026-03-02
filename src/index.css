@@ -7,9 +7,8 @@
   --color-accent: #2563eb;
   --color-dark: #18181b;
 
-  --font-sans: "Inter", system-ui, sans-serif;
-  --font-serif: "Inter", sans-serif;
-  /* Brutalist all sans */
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-serif: "Outfit", sans-serif;
 }
 
 @layer base {

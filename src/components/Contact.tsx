@@ -1,20 +1,20 @@
 export const Contact = () => {
     return (
-        <section id="contacto" className="py-32 px-6 md:px-16 bg-[#09090b] border-t border-white/5 relative overflow-hidden">
+        <section id="contacto" className="py-16 md:py-32 px-6 md:px-16 bg-[#09090b] border-t border-white/5 relative overflow-hidden">
             {/* Structural Background Lines */}
             <div className="absolute inset-0 z-0 opacity-10 pointer-events-none flex justify-center">
                 <div className="w-[1px] h-full bg-primary mx-auto"></div>
                 <div className="absolute top-1/2 left-0 w-full h-[1px] bg-primary"></div>
             </div>
 
-            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-20 relative z-10">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 md:gap-20 relative z-10">
                 <div className="w-full lg:w-5/12">
                     <div className="flex items-center gap-4 mb-4">
                         <div className="w-8 h-[2px] bg-accent"></div>
                         <span className="text-accent font-sans font-bold tracking-[0.2em] uppercase text-xs">02 // CONTACTO</span>
                     </div>
-                    <h2 className="text-5xl md:text-7xl font-sans font-black mb-10 tracking-tighter text-balance uppercase leading-none text-primary">
-                        Iniciemos<br />su proyecto.
+                    <h2 className="text-3xl sm:text-5xl lg:text-6xl font-sans font-black mb-10 tracking-tighter text-balance uppercase leading-none text-primary">
+                        Iniciemos su proyecto.
                     </h2>
 
                     <div className="space-y-10 text-primary/70 font-sans font-medium text-lg pt-10 border-t border-primary/20">
@@ -29,7 +29,7 @@ export const Contact = () => {
                     </div>
                 </div>
 
-                <div className="w-full lg:w-7/12 bg-[#121214] p-8 md:p-12 border border-white/5">
+                <div className="w-full lg:w-7/12 bg-[#121214] p-5 md:p-12 border border-white/5">
                     <form onSubmit={(e) => { e.preventDefault(); alert("Form Submitted! (Demo Mode)"); }} className="space-y-8">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="relative group">
@@ -59,9 +59,9 @@ export const Contact = () => {
                         </div>
 
                         <div className="pt-6 border-t border-primary/10">
-                            <button type="submit" className="group relative w-full px-10 py-6 bg-primary text-dark font-sans font-black uppercase tracking-widest text-sm overflow-hidden text-center hover:text-primary transition-colors duration-300">
+                            <button type="submit" className="group relative w-full px-10 py-6 bg-primary text-dark font-sans font-black uppercase tracking-widest text-sm overflow-hidden text-center hover:text-primary transition-colors duration-300 rounded-none">
                                 <span className="relative z-10 transition-colors duration-300">Enviar Documentación Formal</span>
-                                <div className="absolute inset-0 bg-accent transform scale-y-0 group-hover:scale-y-100 transition-transform origin-bottom duration-300"></div>
+                                <div className="absolute inset-0 bg-accent transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                             </button>
                         </div>
                     </form>
